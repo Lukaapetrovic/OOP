@@ -1,28 +1,67 @@
 <DOCTYPE html>
 
     <html>
-        
         <head>
             <meta charset ="UTF8">
-            <titile>Gimnazija</title>
             <link rel="stylesheet" href="stajl.css">
+            <script>
+                function testFunction(){
+                    document.GetElementById("test").innerHTML="Hello world";
+                }
+                function testFunction2(){
+                    document.getElementById("test")
+                }
+            </script>
         </head>
+
+        <header>
+            <logo>
+                <picture><img src="images.jpg"></picture>
+            </logo>
+            <nav>
+                <u1>
+                    <li>Pocetna</li>
+                    <li><a href="">Katalog</a></li>
+                    <ul>
+                        <li>Nova vozila</li>
+                        <li>Polovna vozila</li>
+                    </ul>
+                </u1>
+            </nav>
+        </header>
         
         <body>
-            <h1>Autoplac munja</h1>
-            <picture><img src="images.jpg"></picture>
-            <p class="stajl">
-                Dobrodosli u nas onlajn salon.
-            </p>
-    
-            <p id="test">
-                Da li zelite polovan ili novi automobil?
-            </p>
-            
-            <h2 class="stajl"> Marka auta </h2>
-            
-            <p>
-                Trenutno nemamo automobila u ponudi.
-            </p>
+            <center><h1>Autoplac munja</h1></center>     
         </body>
+
+        <section>
+            <div>
+                <h2 class ""==podnaslov1>O nama.</h2>
+                <p class="stajl">
+                    Dobrodosli u nas onlajn salon. Za prvih 10 kupaca bice omogucena kupovina uz popust od 15%
+                </p>
+            </div>
+            <div>
+                <p>
+                    Da li zelite polovan ili novi automobil?
+                    <button type="button" onclick=""> Novi </button>
+                    <button type="button" onclick=""> Polovni </button>
+                </p>
+            </div>
+            <div>
+                <h2 class="stajl"> Marka auta </h2>
+                <p>
+                    Trenutno nemamo automobila u ponudi.
+                </p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Ovo bi trebalo da bude u footeru.</p>
+        </footer>
+
+        <script>
+            document.getElementById("test").innerHTML="Hello";
+        </script>
+
     </html>

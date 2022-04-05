@@ -1,9 +1,32 @@
+header{
+    background-color: #ced4da;
+}
+
 body{
-    background-color: blue;
+    background-color: #e9ecef;
+}
+title{
+    font-size:large;
+}
+image{
+    width: 30px;
+    height: 20px;
+}
+h1
+{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 2px solid rgb(52, 37, 255);
+    margin: 20px 0px;
+}
+section{
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin: 20px;
 }
 
 p{
-    color: white;
+    color: black;
 }
 
 #test{
