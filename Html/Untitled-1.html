@@ -13,59 +13,87 @@
                 }
             </script>
         </head>
-
-        <header>
-            <logo>
-                <picture><img src="images.jpg"></picture>
-            </logo>
-            <nav>
-                <u1>
-                    <li><a href="file:///D:/Objektono%20programiranje/Blok/Html/Untitled-1.html">Pocetna</a></li>
-                    <flex><li><a href="">Katalog</a></li></flex>
-                    <ul>
-                        <flex><li>Nova vozila</li></flex>
-                        <flex><li>Polovna vozila</li></flex>
-                    </ul>
-                </u1>
-            </nav>
-        </header>
-        
         <body>
-            <center><h1>Autoplac munja</h1></center>     
+            <header>
+                <logo>
+                    <picture><img src="Logo.jpg" width="80" height="80" style="float:left"></picture>
+                </logo>
+                <h1>Autoplac Munja</h1>
+                <nav>
+                    <u1>
+                        <li><a href="file:///D:/Objektono%20programiranje/Blok/Html/Untitled-1.html">Pocetna</a></li>
+                        <li>Katalog</li>
+                        <li>Nova vozila</li>
+                        <li>Polovna vozila</li>
+                    </u1>
+                </nav>   
+            </header>
+                <section class="Glavna">
+                    <h2 class="podnaslov1">Ovo je pocetna stranica.</h2>
+                    <section class="sekcija1">
+                        <picture id="slika1">
+                            <img src="Nova.jpg" width="210" height="=290">
+                        </picture>
+                        <h2>
+                            NOVA VOZILA
+                        </h2>
+
+                        <p2>
+                            Nas salon nudi raznovrsnu paletu novih vozila koja mozete pronaci ovde.
+                        </p2>
+                    </section>                
+                    <section class="sekcija2">
+                        <picture id="slika1">
+                            <img src="Polovni.jpg" width="210" height="=290">
+                        </picture>
+                        <h2>
+                            POLOVNA VOZILA
+                        </h2>
+                        <p2>
+                            Pored novih, u ponudi imamo i polovna vozila koja su servisirana kod nas.
+                        </p2>
+                    </section>
+    
+                    <section class="sekcija3">
+                        <picture id="slika1">
+                            <img src="Renta.jpg" width="210" height="=290">
+                        </picture>
+                        <h2>
+                            RENT A CAR
+                        </h2>
+                        <p2>
+                            Ukoliko ne zelite da kupite automobil mi Vam nudimo i opciju iznajmljivanja vozila.
+                        </p2>
+                    </section>            
+                </section>
+
+                <section class="Glavna2">
+                    <div>
+                        <p class="stajl">
+                            Dobrodosli u nas onlajn salon. Za prvih 10 kupaca bice omogucena kupovina uz popust do 15%
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Da li zelite polovan ili novi automobil?
+                            <button type="button" onclick="printAutoInfo()"> Proba </button>
+                            <button type="button" onclick=""> Polovni </button>
+                        </p>
+                    </div>
+                    <div>
+                        <h2 class="stajl"> Marka auta </h2>
+                        <p>
+                            Trenutno nemamo automobila u ponudi.
+                        </p>
+                    </div>
+                </section>
+    
+                 <footer>
+                    <p>Ovo bi trebalo da bude u footeru.</p>
+                    <script src="Javas.js"></script>
+                    Proba();
+                    </script>
+                 </footer>
         </body>
-
-        <section>
-            <div>
-                <h2 class ""==podnaslov1>O nama.</h2>
-                <p class="stajl">
-                    Dobrodosli u nas onlajn salon. Za prvih 10 kupaca bice omogucena kupovina uz popust od 15%
-                </p>
-            </div>
-            <div>
-                <p>
-                    Da li zelite polovan ili novi automobil?
-                    <button type="button" onclick="printAutoInfo()"> Proba </button>
-                    <button type="button" onclick=""> Polovni </button>
-                </p>
-                <p>
-                    
-                </p>
-            </div>
-            <div>
-                <h2 class="stajl"> Marka auta </h2>
-                <p>
-                    Trenutno nemamo automobila u ponudi.
-                </p>
-            </div>
-        </section>
-
-        <footer>
-            <p>Ovo bi trebalo da bude u footeru.</p>
-        </footer>
-
-        <script src="Javas.js"></script>
-        <script>
-            Proba();
-        </script>
-
     </html>
+</DOCTYPE>
